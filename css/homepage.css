@@ -4,28 +4,39 @@ body, html {
 }
 
 body {
-	background-color: darkgray;
+	background-color: black;
 }
 
 .container{
 	background-image: url(../images/bund.png) no-repeat center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	width:100%x;
 	position: absolute;
-	margin-top: 50px;
-	margin-left: 100px;
+	margin-top: 30px;
+	margin-left: 80px;
+	opacity:0.8;
 }
 
 .headers-left{
 	float:left;
 	color: white;
-	background-color: red;
 	display: inline-block;
+	padding-left:82px;
+	padding-top: 10px;
+	font-size: 15px;
+	font-family: georgia;
+	letter-spacing: 0.5px;
+	opacity: 1;
 }
 
 .subheaders a{
-	color:blue;
-	margin-top: 300px;
+	color:white;
+	margin-top: 590px;
 	display: inline-block;
+	text-indent: 20px;
+	font-size: 16px;
+	text-decoration: none;
+	position: center;
+	padding-left: 30px;
+	opacity: 0.6;
 }
