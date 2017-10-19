@@ -1,0 +1,31 @@
+body, html {
+	height:100%;
+	margin:0;
+}
+
+body {
+	background-color: darkgray;
+}
+
+.container{
+	background-image: url(../images/bund.png) no-repeat center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:100%x;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.headers-left{
+	float:left;
+	color: white;
+	background-color: red;
+	display: inline-block;
+}
+
+.subheaders a{
+	color:blue;
+	margin-top: 300px;
+	display: inline-block;
+}
