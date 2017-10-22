@@ -56,6 +56,12 @@ ul.home-image li{
 	opacity: 0.6;
 }
 
+.nav h1{
+	color: white;
+	float:left;
+	display: inline-block;
+}
+
 ul {
 	list-style-type: none;
 	margin-top:-610px;
@@ -64,9 +70,10 @@ ul {
 	background-color: black;
 }
 
-li{
+.nav a{
 	float: left;
 	position: left;
+	display: inline-block;
 }
 
 li a{
@@ -76,6 +83,7 @@ li a{
 	text-align: center;
 	padding: 10px 16px;
 	text-decoration: none;
+	padding: left;
 
 }
 
