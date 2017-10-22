@@ -66,20 +66,22 @@ ul {
 
 li{
 	float: left;
+	position: left;
 }
 
 li a{
 	display: block;
 	color: white;
+	float: left;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 10px 16px;
 	text-decoration: none;
 
 }
 
 
 li a:hover{
-	background-color: #111
+	background-color: lightgray;
 
 }
 
