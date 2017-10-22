@@ -15,6 +15,7 @@ body {
 	margin-top: 70px;
 	margin-left: 80px;
 	opacity:0.8;
+	width: 100%;
 }
 
 
@@ -37,8 +38,9 @@ body {
 	display: inline-block;
 	font-size: 16px;
 	text-decoration: none;
-	position: center;
-	text-indent: 90px;
+	position: right;
+	text-indent: 10px;
+	margin-left: 82px;
 	opacity: 0.9;
 }
 
@@ -47,18 +49,20 @@ body {
 	float:left;
 	display: inline-block;
 	margin-left: -223px;
-	position: fixed;
+	position: absolute;
 	margin-top: -3px;
-	font-size: 22px;
+	font-size: 20px;
 }
 
-ul {
+.nav ul {
 	list-style-type: none;
 	margin-top:-612px;
+	margin-left: 200px;
 	padding: 0;
 	overflow: hidden;
 	background-color: black;
-	margin-left: 200px;
+	display: block;
+	position: left;
 }
 
 .nav a{
@@ -70,20 +74,27 @@ ul {
 	margin-top:-3px;
 }
 
-li a{
-	display: block;
+
+.nav li{
+	margin-left: -150px;
+	position: absolute;
+	display: inline-block;
+}
+
+.nav li a{
+	display: inline-block;
 	color: #646464;
-	float: left;
+	z-index: 1;
 	text-align: center;
+	padding-left: 200px;
 	padding: 4px 15px;
 	text-decoration: none;
-	padding-left: 100px;
 	position: relative;
 
 }
 
 
-li a:hover{
+.nav li a:hover{
 	background-color: lightgray;
 
 }

@@ -18,6 +18,14 @@ body {
 	opacity:0.8;
 }
 
+.content h1{
+	color: black;
+	background-color: white;
+	border: 4px  red;
+	margin-top: 100px;
+	margin-left:80px;
+	position: absolute;
+}
 
 .headers-left{
 	float:left;

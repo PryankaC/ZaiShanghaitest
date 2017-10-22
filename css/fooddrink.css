@@ -15,6 +15,7 @@ body {
 	margin-top: 70px;
 	margin-left: 80px;
 	opacity:0.8;
+	width: 100%;
 }
 
 
@@ -33,31 +34,27 @@ body {
 
 .subheaders a{
 	color:white;
-	margin-top: 640px;
+	padding-top: 640px;
 	display: inline-block;
 	font-size: 16px;
 	text-decoration: none;
-	position: center;
-	text-indent: 90px;
+	position: right;
+	text-indent: 42px;
+	margin-left: 50px;
 	opacity: 0.9;
 }
 
-.nav h1{
-	color: #b9b9b9;
-	float:left;
-	display: inline-block;
-	margin-left: -223px;
-	position: fixed;
-	margin-top: -3px;
-	font-size: 22px;
-}
 
-ul {
+
+.nav ul {
 	list-style-type: none;
-	margin-top:-612px;
+	margin-top:-586px;
+	margin-left: 80px;
 	padding: 0;
 	overflow: hidden;
 	background-color: black;
+	display: inline-block;
+	position: fixed;
 }
 
 .nav a{
@@ -69,21 +66,28 @@ ul {
 	margin-top:-3px;
 }
 
-li a{
-	display: block;
+
+.nav li a{
+	display: inline-block;
 	color: #646464;
-	float: left;
+	z-index: 1;
 	text-align: center;
+	padding-left: 0px;
 	padding: 4px 15px;
 	text-decoration: none;
-	padding: left;
+	position: relative;
 
 }
 
 
-li a:hover{
+.nav li a:hover{
 	background-color: lightgray;
 
 }
 
+.subheaders a:hover{
+	background-color: #f90f01;
+	opacity: 0.8;
+	background-height: 2%;
+}
 
